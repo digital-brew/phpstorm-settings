@@ -1,0 +1,21 @@
+<application>
+  <component name="SettingsSyncSettings">
+    <option name="disabledSubcategories">
+      <map>
+        <entry key="PLUGINS">
+          <value>
+            <list>
+              <option value="com.github.catppuccin.jetbrains" />
+              <option value="com.jetbrains.darkPurpleTheme" />
+              <option value="com.vermouthx.idea" />
+              <option value="com.vermouthx.xcode-theme" />
+              <option value="monokai-pro" />
+              <option value="net.antelle.intellij-xcode-dark-theme" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="migrationFromOldStorageChecked" value="true" />
+  </component>
+</application>

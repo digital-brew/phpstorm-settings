@@ -1,0 +1,52 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/dotfiles" value="true" />
+        <entry key="$USER_HOME$/nix-darwin" value="true" />
+        <entry key="/Volumes/Work/Code" value="true" />
+        <entry key="/Volumes/Work/Code/Laravel/acf-composer" value="true" />
+        <entry key="/Volumes/Work/Code/Laravel/bundle" value="true" />
+        <entry key="/Volumes/Work/Code/Laravel/gutengood" value="true" />
+        <entry key="/Volumes/Work/Code/Laravel/gutengood-examples" value="true" />
+        <entry key="/Volumes/Work/Code/WordPress/plugins/db-bundles" value="true" />
+        <entry key="/Volumes/Work/Code/WordPress/plugins/db-swootcher" value="true" />
+        <entry key="/Volumes/Work/Code/WordPress/plugins/dbio-bundles" value="true" />
+        <entry key="/Volumes/Work/Code/WordPress/plugins/swootcher" value="true" />
+        <entry key="/Volumes/Work/Code/WordPress/plugins/xtension" value="true" />
+        <entry key="/Volumes/Work/Code/WordPress/radicle" value="true" />
+        <entry key="/Volumes/Work/Projects/_temp/local.trimit.co.uk2" value="true" />
+        <entry key="/Volumes/Work/Projects/local.airomissions.com" value="true" />
+        <entry key="/Volumes/Work/Projects/local.freshstartineducation.co.uk" value="true" />
+        <entry key="/Volumes/Work/Projects/local.mammarzenie.org" value="true" />
+        <entry key="/Volumes/Work/Projects/local.muchmore.co" value="true" />
+        <entry key="/Volumes/Work/Projects/local.myhomeboost.com" value="true" />
+        <entry key="/Volumes/Work/Projects/local.radicle.roots" value="true" />
+        <entry key="/Volumes/Work/Projects/local.sewsewhappy.co.uk" value="true" />
+        <entry key="/Volumes/Work/Projects/local.stratus.earth" value="true" />
+        <entry key="/Volumes/Work/Projects/local.thelangton.org.uk" value="true" />
+        <entry key="/Volumes/Work/Projects/local.thesportsconsultancy.com" value="true" />
+        <entry key="/Volumes/Work/Projects/local.trimit.co.uk" value="true" />
+        <entry key="/Volumes/Work/Projects/local.trimit2.co.uk" value="true" />
+        <entry key="/Volumes/Work/Projects/shopify.awakn.com" value="true" />
+        <entry key="/Volumes/Work/Projects/shopify.eternapure.com" value="true" />
+        <entry key="/Volumes/Work/Projects/shopify.hapimix.com" value="true" />
+        <entry key="/Volumes/Work/Projects/shopify.icesupp.com" value="true" />
+        <entry key="/Volumes/Work/Projects/shopify.ketoketo.co" value="true" />
+        <entry key="/Volumes/Work/Projects/trimit.co.uk" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$" />
+        <option value="/Volumes/Work/Projects" />
+        <option value="/Volumes/Work/Code/Laravel" />
+        <option value="/Volumes/Work/Code/WordPress/plugins" />
+        <option value="/Volumes/Work/Code/WordPress" />
+        <option value="/Volumes/Work" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,10 @@
+<application>
+  <component name="com.mituuz.fuzzier.FuzzierSettings">
+    <option name="modules">
+      <map>
+        <entry key="sewsewhappy.co.uk" value="/Volumes/Work/Projects/local.sewsewhappy.co.uk" />
+      </map>
+    </option>
+    <option name="splitPosition" value="684" />
+  </component>
+</application>

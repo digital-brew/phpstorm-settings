@@ -1,0 +1,13 @@
+<scheme name="_@user_Gerry Violet" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2024.2.0.1.0.0</property>
+    <property name="originalScheme">Gerry Violet</property>
+    <property name="partialSave">true</property>
+    <property name="pluginId">com.jetbrains.gerryThemesPro</property>
+  </metaInfo>
+  <colors>
+    <option name="FILESTATUS_NOT_CHANGED" value="838b92" />
+    <option name="FILESTATUS_SUPPRESSED" value="838b92" />
+  </colors>
+</scheme>

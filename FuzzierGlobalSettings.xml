@@ -1,0 +1,10 @@
+<application>
+  <component name="com.mituuz.fuzzier.FuzzierGlobalSettings">
+    <option name="debouncePeriod" value="60" />
+    <option name="defaultPopupHeight" value="1000" />
+    <option name="defaultPopupWidth" value="1700" />
+    <option name="fileListFontSize" value="18" />
+    <option name="filenameType" value="FILENAME_WITH_PATH" />
+    <option name="splitPosition" value="827" />
+  </component>
+</application>

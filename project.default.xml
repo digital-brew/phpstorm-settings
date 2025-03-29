@@ -1,0 +1,41 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ComposerSettings">
+        <execution />
+      </component>
+      <component name="MaterialThemeProjectNewConfig">
+        <option name="metadata">
+          <MTProjectMetadataState>
+            <option name="migrated" value="true" />
+            <option name="pristineConfig" value="false" />
+            <option name="userId" value="-1ffe2446:19192850651:-7ffc" />
+          </MTProjectMetadataState>
+        </option>
+        <option name="titleBarState">
+          <MTProjectTitleBarConfigState>
+            <option name="overrideColor" value="false" />
+          </MTProjectTitleBarConfigState>
+        </option>
+      </component>
+      <component name="ProjectViewState">
+        <option name="autoscrollFromSource" value="true" />
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="openDirectoriesWithSingleClick" value="true" />
+        <option name="showLibraryContents" value="true" />
+      </component>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+      <component name="VcsDirectoryMappings" defaultProject="true" />
+      <component name="WindowStateProjectService">
+        <state x="2294" y="117" key="SettingsEditor" timestamp="1731443710367">
+          <screen x="1920" y="0" width="1920" height="1080" />
+        </state>
+        <state x="2294" y="117" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080/-1920.0.1920.1080" timestamp="1731443710367" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

@@ -1,0 +1,387 @@
+<templateSet group="Liquid Schema">
+  <template name="text" value="{&#10;  &quot;type&quot;: &quot;text&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Text" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="texte" value="{&#10;  &quot;type&quot;: &quot;text&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;default&quot;: &quot;$DEFAULT$&quot;&#10;},$END$" description="Text with default value" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="checkbox" value="{&#10;  &quot;type&quot;: &quot;checkbox&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;default&quot;: true$DEFAULT$&#10;},$END$" description="Checkbox" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="numb" value="{&#10;  &quot;type&quot;: &quot;number&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Number" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="numbe" value="{&#10;  &quot;type&quot;: &quot;number&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;default&quot;: &quot;$DEFAULT$&quot;&#10;},$END$" description="Number with default value" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="radio" value="{&#10;  &quot;type&quot;: &quot;radio&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;$VALUE_1$&quot;,&#10;      &quot;label&quot;: &quot;$LABEL_1$&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;$VALUE_2$&quot;,&#10;      &quot;label&quot;: &quot;$LABEL_2$&quot;&#10;    }$MORE_VALUES$&#10;  ],&#10;  &quot;default&quot;: &quot;$DEFAULT$&quot;&#10;},$END$" description="Radio" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MORE_VALUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="option" value="{&#10;  &quot;value&quot;: &quot;$VALUE_1$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL_1$&quot;&#10;}$END$" description="Option for radio and select fields" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="range" value="{&#10;  &quot;type&quot;: &quot;range&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;  &quot;min&quot;: $MIN$,&#10;  &quot;max&quot;: $MAX$,&#10;  &quot;step&quot;: $STEP$,&#10;  &quot;unit&quot;: &quot;$UNIT$&quot;,&#10;  &quot;default&quot;: $DEFAULT$&#10;},$END$" description="Range" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MIN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MAX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STEP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="UNIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="select" value="{&#10;  &quot;type&quot;: &quot;select&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;$VALUE_1$&quot;,&#10;      &quot;label&quot;: &quot;$LABEL_1$&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;$VALUE_2$&quot;,&#10;      &quot;label&quot;: &quot;$LABEL_2$&quot;&#10;    }$MORE_VALUES$&#10;  ],&#10;  &quot;default&quot;: &quot;$DEFAULT$&quot;&#10;},$END$" description="Select" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MORE_VALUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="texta" value="{&#10;  &quot;type&quot;: &quot;textarea&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Textarea" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="textae" value="{&#10;  &quot;type&quot;: &quot;textarea&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;default&quot;: &quot;$DEFAULT$&quot;&#10;},$END$" description="Textarea with default value" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="article" value="{&#10;  &quot;type&quot;: &quot;article&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Article" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="blog" value="{&#10;  &quot;type&quot;: &quot;blog&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Blog" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="col" value="{&#10;  &quot;type&quot;: &quot;collection&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Collection" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="collist" value="{&#10;  &quot;type&quot;: &quot;collection_list&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;limit&quot;: $LIMIT$&#10;},$END$" description="Collection list" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="color" value="{&#10;  &quot;type&quot;: &quot;color&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Color picker" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="colore" value="{&#10;  &quot;type&quot;: &quot;color&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;default&quot;: &quot;$DEFAULT$&quot;&#10;},$END$" description="Color picker with default value" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="colorbg" value="{&#10;  &quot;type&quot;: &quot;color_background&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Background color" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="colorbge" value="{&#10;  &quot;type&quot;: &quot;color_background&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;default&quot;: &quot;linear-gradient($DEFAULT_1$, $DEFAULT_2$)&quot;&#10;},$END$" description="Background color with default value" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT_1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT_2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="html" value="{&#10;  &quot;type&quot;: &quot;html&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="HTML" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="img" value="{&#10;  &quot;type&quot;: &quot;image_picker&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Image picker" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="irtext" value="{&#10;  &quot;type&quot;: &quot;inline_richtext&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Inline richtext" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="irtexte" value="{&#10;  &quot;type&quot;: &quot;inline_richtext&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;default&quot;: &quot;$DEFAULT$&quot;&#10;},$END$" description="Inline richtext with default value" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="links" value="{&#10;  &quot;type&quot;: &quot;link_list&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Link list" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="liquid" value="{&#10;  &quot;type&quot;: &quot;liquid&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Liquid" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="liquide" value="{&#10;  &quot;type&quot;: &quot;textarea&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;default&quot;: &quot;$DEFAULT$&quot;&#10;},$END$" description="Liquid with default value" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="page" value="{&#10;  &quot;type&quot;: &quot;page&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Page" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="prod" value="{&#10;  &quot;type&quot;: &quot;product&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Product" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="prodlist" value="{&#10;  &quot;type&quot;: &quot;product_list&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;limit&quot;: $LIMIT$&#10;},$END$" description="Product list" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="rtext" value="{&#10;  &quot;type&quot;: &quot;richtext&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Richtext" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="textalign" value="{&#10;  &quot;type&quot;: &quot;text_alignment&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;default&quot;: &quot;$DEFAULT$&quot;&#10;},$END$" description="Text alignment" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEFAULT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="url" value="{&#10;  &quot;type&quot;: &quot;url&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Url" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="vid" value="{&#10;  &quot;type&quot;: &quot;video&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;&#10;},$END$" description="Video" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="vidl" value="{&#10;  &quot;type&quot;: &quot;video_url&quot;,&#10;  &quot;id&quot;: &quot;$ID$&quot;,&#10;  &quot;label&quot;: &quot;$LABEL$&quot;,&#10;  &quot;accept&quot;: [&#10;    &quot;youtube&quot;,&#10;    &quot;vimeo&quot;$MORE_VALUES$&#10;  ]&#10;},$END$" description="Video link" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MORE_VALUES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="hd" value="{&#10;  &quot;type&quot;: &quot;header&quot;,&#10;  &quot;content&quot;: &quot;$CONTENT$&quot;&#10;},$END$" description="Header" toReformat="true" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="hde" value="{&#10;  &quot;type&quot;: &quot;header&quot;,&#10;  &quot;content&quot;: &quot;$CONTENT$&quot;,&#10;  &quot;info&quot;: &quot;$INFO$&quot;&#10;},$END$" description="Header with info" toReformat="true" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INFO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="par" value="{&#10;  &quot;type&quot;: &quot;paragraph&quot;,&#10;  &quot;content&quot;: &quot;$CONTENT$&quot;&#10;},$END$" description="Paragraph" toReformat="true" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="blk" value="{&#10; &quot;name&quot;: &quot;$NAME$&quot;,&#10; &quot;type&quot;: &quot;$TYPE$&quot;,&#10; &quot;settings&quot;: [&#10;  $SETTINGS$&#10; ]&#10;},$END$" description="Block" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SETTINGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="fspace" value="{&#10;  &quot;type&quot;: &quot;select&quot;,&#10;  &quot;id&quot;: &quot;spacing_top&quot;,&#10;  &quot;label&quot;: &quot;Top spacing&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;none&quot;,&#10;      &quot;label&quot;: &quot;None&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;small&quot;,&#10;      &quot;label&quot;: &quot;Small&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;medium&quot;,&#10;      &quot;label&quot;: &quot;Medium&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;large&quot;,&#10;      &quot;label&quot;: &quot;Large&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;xlarge&quot;,&#10;      &quot;label&quot;: &quot;Extra Large&quot;&#10;    }&#10;  ],&#10;  &quot;default&quot;: &quot;large&quot;&#10;},&#10;{&#10;  &quot;type&quot;: &quot;select&quot;,&#10;  &quot;id&quot;: &quot;spacing_bottom&quot;,&#10;  &quot;label&quot;: &quot;Bottom spacing&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;none&quot;,&#10;      &quot;label&quot;: &quot;None&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;small&quot;,&#10;      &quot;label&quot;: &quot;Small&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;medium&quot;,&#10;      &quot;label&quot;: &quot;Medium&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;large&quot;,&#10;      &quot;label&quot;: &quot;Large&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;xlarge&quot;,&#10;      &quot;label&quot;: &quot;Extra Large&quot;&#10;    }&#10;  ],&#10;  &quot;default&quot;: &quot;large&quot;&#10;}," description="Section spacing" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="fspacee" value="{&#10;  &quot;type&quot;: &quot;header&quot;,&#10;  &quot;content&quot;: &quot;Spacing&quot;,&#10;  &quot;info&quot;: &quot;Below, you can set the top and bottom section spacing separately for desktop, tablet and mobile.&quot;&#10;},&#10;{&#10;  &quot;type&quot;: &quot;header&quot;,&#10;  &quot;content&quot;: &quot;Spacing top&quot;&#10;},&#10;{&#10;  &quot;type&quot;: &quot;select&quot;,&#10;  &quot;id&quot;: &quot;spacing_top_mobile&quot;,&#10;  &quot;label&quot;: &quot;Mobile&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;none&quot;,&#10;      &quot;label&quot;: &quot;None&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;small&quot;,&#10;      &quot;label&quot;: &quot;Small&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;medium&quot;,&#10;      &quot;label&quot;: &quot;Medium&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;large&quot;,&#10;      &quot;label&quot;: &quot;Large&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;xlarge&quot;,&#10;      &quot;label&quot;: &quot;Extra Large&quot;&#10;    }&#10;  ],&#10;  &quot;default&quot;: &quot;large&quot;&#10;},&#10;{&#10;  &quot;type&quot;: &quot;select&quot;,&#10;  &quot;id&quot;: &quot;spacing_top_tablet&quot;,&#10;  &quot;label&quot;: &quot;Tablet&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;none&quot;,&#10;      &quot;label&quot;: &quot;None&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;small&quot;,&#10;      &quot;label&quot;: &quot;Small&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;medium&quot;,&#10;      &quot;label&quot;: &quot;Medium&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;large&quot;,&#10;      &quot;label&quot;: &quot;Large&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;xlarge&quot;,&#10;      &quot;label&quot;: &quot;Extra Large&quot;&#10;    }&#10;  ],&#10;  &quot;default&quot;: &quot;large&quot;&#10;},&#10;{&#10;  &quot;type&quot;: &quot;select&quot;,&#10;  &quot;id&quot;: &quot;spacing_top_desktop&quot;,&#10;  &quot;label&quot;: &quot;Desktop&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;none&quot;,&#10;      &quot;label&quot;: &quot;None&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;small&quot;,&#10;      &quot;label&quot;: &quot;Small&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;medium&quot;,&#10;      &quot;label&quot;: &quot;Medium&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;large&quot;,&#10;      &quot;label&quot;: &quot;Large&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;xlarge&quot;,&#10;      &quot;label&quot;: &quot;Extra Large&quot;&#10;    }&#10;  ],&#10;  &quot;default&quot;: &quot;large&quot;&#10;},&#10;{&#10;  &quot;type&quot;: &quot;header&quot;,&#10;  &quot;content&quot;: &quot;Spacing bottom&quot;&#10;},&#10;{&#10;  &quot;type&quot;: &quot;select&quot;,&#10;  &quot;id&quot;: &quot;spacing_bottom_mobile&quot;,&#10;  &quot;label&quot;: &quot;Mobile&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;none&quot;,&#10;      &quot;label&quot;: &quot;None&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;small&quot;,&#10;      &quot;label&quot;: &quot;Small&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;medium&quot;,&#10;      &quot;label&quot;: &quot;Medium&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;large&quot;,&#10;      &quot;label&quot;: &quot;Large&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;xlarge&quot;,&#10;      &quot;label&quot;: &quot;Extra Large&quot;&#10;    }&#10;  ],&#10;  &quot;default&quot;: &quot;large&quot;&#10;},&#10;{&#10;  &quot;type&quot;: &quot;select&quot;,&#10;  &quot;id&quot;: &quot;spacing_bottom_tablet&quot;,&#10;  &quot;label&quot;: &quot;Tablet&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;none&quot;,&#10;      &quot;label&quot;: &quot;None&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;small&quot;,&#10;      &quot;label&quot;: &quot;Small&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;medium&quot;,&#10;      &quot;label&quot;: &quot;Medium&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;large&quot;,&#10;      &quot;label&quot;: &quot;Large&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;xlarge&quot;,&#10;      &quot;label&quot;: &quot;Extra Large&quot;&#10;    }&#10;  ],&#10;  &quot;default&quot;: &quot;large&quot;&#10;},&#10;{&#10;  &quot;type&quot;: &quot;select&quot;,&#10;  &quot;id&quot;: &quot;spacing_bottom_desktop&quot;,&#10;  &quot;label&quot;: &quot;Desktop&quot;,&#10;  &quot;options&quot;: [&#10;    {&#10;      &quot;value&quot;: &quot;none&quot;,&#10;      &quot;label&quot;: &quot;None&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;small&quot;,&#10;      &quot;label&quot;: &quot;Small&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;medium&quot;,&#10;      &quot;label&quot;: &quot;Medium&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;large&quot;,&#10;      &quot;label&quot;: &quot;Large&quot;&#10;    },&#10;    {&#10;      &quot;value&quot;: &quot;xlarge&quot;,&#10;      &quot;label&quot;: &quot;Extra Large&quot;&#10;    }&#10;  ],&#10;  &quot;default&quot;: &quot;large&quot;&#10;}$END$" description="Section spacing extended" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+</templateSet>
